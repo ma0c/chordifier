@@ -1,0 +1,27 @@
+{
+  "name": "chordifier",
+  "version": "0.0.1",
+  "description": "A Javascript application that reads MIDI input from a MIDI device and plots the note into a score and the corresponding chord",
+  "main": "index.js",
+  "repository": "https://github.com/ma0c/chordifier",
+  "author": "Mauricio Collazos",
+  "license": "MIT",
+  "private": false,
+  "dependencies": {
+    "vexflow": "^3.0.9"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.9.6",
+    "@babel/plugin-proposal-class-properties": "^7.8.3",
+    "@babel/preset-env": "^7.9.6",
+    "babel-loader": "^8.1.0",
+    "html-webpack-plugin": "^4.3.0",
+    "webpack": "^4.43.0",
+    "webpack-cli": "^3.3.11",
+    "webpack-dev-server": "^3.11.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "start": "webpack-dev-server"
+  }
+}
