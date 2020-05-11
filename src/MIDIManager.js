@@ -39,9 +39,9 @@ export class MIDIManager {
                     const notesToRemove = [];
                     Object.entries(this.activeNotes).forEach((note) => {
                         const noteKey = note[0], isActive = note[1];
-                       if (!isActive) {
+                        if (!isActive) {
                            delete this.activeNotes[noteKey];
-                       }
+                        }
                     });
                 }
                 break;
