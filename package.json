@@ -26,6 +26,7 @@
   "scripts": {
     "build": "webpack",
     "start": "webpack-dev-server",
-    "test": "jest"
+    "test": "jest",
+    "gh-pages": "npx gh-pages -d dist"
   }
 }
